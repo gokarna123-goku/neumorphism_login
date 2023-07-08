@@ -26,8 +26,15 @@ a{
     padding: 40px 30px;
     width: 400px;
     border-radius: 15px;
-    background-color: #efefef;
+    background-color: #f1f1f1;  /* efefef */
     box-shadow: -8px -8px 15px #ffffff, 8px 8px 15px #161b1d2f;
+}
+.login_card h5{
+    font-size: 1.25rem;
+    font-weight: 550;
+    color: #474747;
+    letter-spacing: 0.01rem;
+    margin-bottom: 0.7rem;
 }
 .login_card .input_section{
     width: 100%;
