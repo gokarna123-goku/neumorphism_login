@@ -1,9 +1,14 @@
 /*  */
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Poppins', sans-serif;
 }
 a{
     text-decoration: none;
@@ -30,12 +35,20 @@ a{
     box-shadow: -8px -8px 15px #ffffff, 8px 8px 15px #161b1d2f;
 }
 .login_card h5{
-    font-size: 1.25rem;
+    font-size: 1.75rem;
     font-weight: 550;
     color: #474747;
     letter-spacing: 0.01rem;
-    margin-bottom: 0.7rem;
+    margin-bottom: 0.58rem;
 }
+.login_card h6{
+    font-size: 0.899rem;
+    font-weight: 550;
+    color: #474747;
+    letter-spacing: 0.01rem;
+    margin-bottom: 1.75rem;
+}
+
 .login_card .input_section{
     width: 100%;
     height: auto;
