@@ -20,14 +20,6 @@ a{
     background: #efefef;
 }
 
-/* .login_card{
-    width: 350px;
-    min-height: 60vh;
-    background: #ecf0f3;
-    box-shadow: -8px -8px 8px #ecf0f3, 8px 8px 8px #161b1d2f;
-    border-radius: 6px;
-} */
-
 .box {
     margin: auto;
     box-sizing: border-box;
@@ -36,7 +28,7 @@ a{
     padding: 80px 40px;
     width: 340px;
     border-radius: 35px;
-    background-color: #ecf0f3;
+    background-color: #efefef;
     box-shadow: -8px -8px 8px #feffff, 8px 8px 8px #161b1d2f;
   }
   .box label {
