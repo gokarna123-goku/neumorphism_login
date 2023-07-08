@@ -21,15 +21,14 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden;
+    /* overflow: hidden; */
     background: #dedede;
 }
 
 .login_card {
-    margin-top: 100px;
-    min-height: 65vh;
-    padding: 40px 35px;
     width: 400px;
+    min-height: 70vh;
+    padding: 40px 35px;
     border-radius: 15px;
     background-color: #f1f1f1;  /* efefef */
     box-shadow: -8px -8px 15px #ffffff, 8px 8px 15px #161b1d2f;
@@ -182,25 +181,30 @@ a{
     background-color: transparent;
     border-radius: 0;
   }
-  .btn {
+.btn{
     width: 100%;
-    margin-top: 20px;
-    height: 38px;
+    height: 43px;
+    margin-top: 1.75rem;
+    font-size: 1.1rem;
+    font-weight: 550;
     border: none;
-    outline: none;
-    border-radius: 20px;
-    background-color: #727171;
-    font-size: 16px;
-    font-weight: 500;
-    color: #ffffff;
+    border-radius: 6px;
+    color: #474747;
+    background-color: #f3f3f3;
+    box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
+    /* box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.3), 
+                -2px -2px 4px 2px rgba(255, 255, 255, 1); */
+    /* transition: box-shadow .5s ease-out !important; */
+    transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+    opacity: 1;
     cursor: pointer;
-    box-shadow: -5px -5px 8px #d8e2e6, 5px 5px 10px #2c313378;
-    transition: 0.8s;
-  }
-  .btn:hover {
-    background-color: #535658;
-    box-shadow: inset 5px 5px 10px #05050578, inset -5px -5px 10px #9e9c9c;
-  }
+}
+.btn:hover {
+    box-shadow: inset 3px 3px 5px #cbced1, inset -3px -3px 5px #ffffff;
+    transition: all 0.5s ease-in-out;
+	-webkit-transition: all 0.5s ease-in-out;
+}
   .social {
     display: flex;
     justify-content: center;
