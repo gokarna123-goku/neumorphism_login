@@ -21,15 +21,16 @@ a{
 }
 
 .box {
-    margin: auto;
-    box-sizing: border-box;
     margin-top: 100px;
-    height: 500px;
-    padding: 80px 40px;
-    width: 340px;
-    border-radius: 35px;
+    min-height: 70vh;
+    padding: 60px 40px;
+    width: 350px;
+    border-radius: 10px;
     background-color: #efefef;
-    box-shadow: -8px -8px 8px #feffff, 8px 8px 8px #161b1d2f;
+    /* box-shadow: -8px -8px 8px #feffff, 8px 8px 8px #161b1d2f; */
+    box-shadow: 7px 7px 15px rgba(55, 84, 170, .15),
+    -7px -7px 20px rgba(255, 255, 255, 1),
+    0px 0px 4px rgba(255, 255, 255, .2) !important;
   }
   .box label {
     font-size: 16px;
