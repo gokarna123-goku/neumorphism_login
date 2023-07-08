@@ -29,7 +29,7 @@ a{
     background-color: #efefef;
     box-shadow: -8px -8px 15px #ffffff, 8px 8px 15px #161b1d2f;
 }
-.login_card .input_box{
+.login_card .input_section{
     width: 100%;
     height: auto;
     margin-bottom: 1.5rem;
