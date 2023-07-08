@@ -28,7 +28,7 @@ a{
 .login_card {
     margin-top: 100px;
     min-height: 65vh;
-    padding: 40px 30px;
+    padding: 40px 35px;
     width: 400px;
     border-radius: 15px;
     background-color: #f1f1f1;  /* efefef */
@@ -39,14 +39,14 @@ a{
     font-weight: 550;
     color: #474747;
     letter-spacing: 0.01rem;
-    margin-bottom: 0.58rem;
+    margin-bottom: 0.45rem;
 }
 .login_card h6{
     font-size: 0.899rem;
     font-weight: 550;
     color: #474747;
     letter-spacing: 0.01rem;
-    margin-bottom: 1.75rem;
+    margin-bottom: 1.55rem;
 }
 
 .login_card .input_section{
