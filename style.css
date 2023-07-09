@@ -92,29 +92,29 @@ a{
 .login_card input::placeholder {
     color: #9e9c9c;
 }
-.forget {
+.remember_forgot_section {
     margin-top: 15px;
 }
-.forget .fg a {
+.remember_forgot_section .forgot_section a {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 0.88rem;
     color: #8f8c8c;
     line-height: 24px;
 }
-.forget .fg {
+.remember_forgot_section .forgot_section {
     display: inline-block;
-    margin-left: 58%;
-    font-size: 12px;
+    margin-left: 62%;
+    font-size: 0.9rem;
 }
-.forget .fg:hover {
+.remember_forgot_section .forgot_section:hover {
     text-decoration: underline;
     text-decoration-color: #b4b8b8;
 }
-.forget .checkbox-label {
+.remember_forgot_section .checkbox-label {
     display: block;
     position: relative;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 1.2rem;
     line-height: 22px;
 }
 .label-text {
@@ -123,9 +123,9 @@ a{
     position: absolute;
     font-weight: 500;
     left: 11%;
-    font-size: 0.88rem;
+    font-size: 0.9rem;
 }
-.forget .checkbox-label input {
+.remember_forgot_section .checkbox-label input {
     position: absolute;
     opacity: 0;
     cursor: pointer;
@@ -136,19 +136,19 @@ a{
     left: 0px;
     height: 20px;
     width: 20px;
-    background-color: #ecf0f3;
-    border-radius: 5px;
-    border: none;
-    box-shadow: inset 3px 3px 3px #cbced1, inset -3px -3px 3px #ffff;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: inset 2px 2px 3px #cbced1, inset -2px -2px 3px #ffff;
 }
 .checkbox-label input:checked~.checkbox-custom {
-    background-color: #ecf0f3;
-    border-radius: 5px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
     -webkit-transform: rotate(0deg) scale(1);
     -ms-transform: rotate(0deg) scale(1);
     transform: rotate(0deg) scale(1);
     opacity: 1;
-    border: none;
+    border: 1px solid #ededed;
     box-shadow: -4px -4px 4px #feffff, 4px 4px 4px #161b1d2f;
 }
 .checkbox-label .checkbox-custom::after {
@@ -158,7 +158,7 @@ a{
     top: 10px;
     height: 0px;
     width: 0px;
-    border-radius: 5px;
+    border-radius: 4px;
     border: solid #635f5f;
     border-width: 0 3px 3px 0;
     -webkit-transform: rotate(0deg) scale(0);
