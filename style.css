@@ -92,11 +92,19 @@ a{
 .login_card input::placeholder {
     color: #9e9c9c;
 }
-.login_card .forgot_password{
-    float: right;
-    font-size: 0.98rem;
-    color: #535D74;
-    margin-bottom: 1.2rem;
+.login_card .remember_forgot_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #5e4f4f;
+    padding: 0;
+}
+.remember_forgot_section .checkbox_section{
+    display: flex;
+    align-items: center;
+    column-gap: 0.7rem;
 }
 .forget {
     margin-top: 15px;
