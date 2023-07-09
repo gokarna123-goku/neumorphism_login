@@ -92,6 +92,12 @@ a{
 .login_card input::placeholder {
     color: #9e9c9c;
 }
+.login_card .forgot_password{
+    float: right;
+    font-size: 0.98rem;
+    color: #535D74;
+    margin-bottom: 1.2rem;
+}
 .forget {
     margin-top: 15px;
 }
