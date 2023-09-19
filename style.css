@@ -107,9 +107,12 @@ a{
     margin-left: 62%;
     font-size: 0.9rem;
 }
-.remember_forgot_section .forgot_section:hover {
+.remember_forgot_section .forgot_section a {
+    color: #1c7dd7;
+}
+.remember_forgot_section .forgot_section a:hover {
     text-decoration: underline;
-    text-decoration-color: #b4b8b8;
+    /* text-decoration-color: #b4b8b8; */
 }
 .remember_forgot_section .checkbox_section {
     display: block;
