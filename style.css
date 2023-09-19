@@ -190,13 +190,10 @@ a{
     font-size: 1.1rem;
     font-weight: 550;
     border: none;
-    border-radius: 6px;
+    border-radius: 20px;
     color: #474747;
     background-color: #f3f3f3;
     box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
-    /* box-shadow: 3px 4px 6px 1px rgba(0, 0, 0, 0.3), 
-                -2px -2px 4px 2px rgba(255, 255, 255, 1); */
-    /* transition: box-shadow .5s ease-out !important; */
     transition: all 0.5s ease-in-out;
 	-webkit-transition: all 0.5s ease-in-out;
     opacity: 1;
