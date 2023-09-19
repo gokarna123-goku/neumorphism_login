@@ -43,10 +43,10 @@ a{
 }
 .login_card h6{
     font-size: 0.899rem;
-    font-weight: 550;
+    font-weight: 500;
     color: #474747;
     letter-spacing: 0.01rem;
-    margin-bottom: 1.55rem;
+    margin-bottom: 1.75rem;
 }
 
 .login_card .input_section{
@@ -193,11 +193,10 @@ a{
     border-radius: 20px;
     color: #474747;
     background-color: #f3f3f3;
-    box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
-    -webkit-box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
     transition: all 5s ease-in-out;
 	-webkit-transition: all 5s ease-in-out;
-    opacity: 1;
+    box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
+    -webkit-box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
     cursor: pointer;
 }
 .btn:hover {
