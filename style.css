@@ -190,10 +190,12 @@ a{
     border-radius: 20px;
     background: #f3f3f3;
     box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
+    -webkit-box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
     cursor: pointer;
 }
 .btn:hover{
-    box-shadow: inset 3px 3px 5px #cbced1, -3px -3px 5px #ffffff;
+    box-shadow: inset 3px 3px 5px #cbced1, inset -3px -3px 5px #ffffff;
+    -webkit-box-shadow: inset 3px 3px 5px #cbced1, inset -3px -3px 5px #ffffff;
 }
 
 .register_navigation_section{
