@@ -16,37 +16,39 @@
     <div class="main_section">
         <div class="login_card">
             <h5 class="login_title">Login</h5>
-            <h6>Hi 👋 Welcome Back!</h6>
-            <form action="#" method="post">
+            <h6>Hi👋 Welcome Back!</h6>
+            <form>
                 <div class="input_section">
-                    <label class="label_name" for="username">Username</label>
+                    <label for="username" class="labe_name">Username</label>
                     <div class="input_box">
                         <i class="fa-solid fa-user"></i>
-                        <input type="text" name="username" id="username" placeholder="Enter Username" class="input">
+                        <input type="text" name="username" id="username" placeholder="Enter your username" class="input">
                     </div>
                 </div>
                 <div class="input_section">
-                    <label class="label_name" for="password">Password</label>
+                    <label for="password" class="labe_name">Password</label>
                     <div class="input_box">
                         <i class="fa-solid fa-lock"></i>
-                        <input type="password" name="password" id="password" placeholder="Enter Password" class="input">
-                        <!-- <i class="fa-solid fa-eye"></i> -->
+                        <input type="password" name="password" id="password" placeholder="Enter your password" class="input">
                     </div>
                 </div>
                 <div class="remember_forgot_section">
-                    <label class="checkbox_section">
+                    <div class="checkbox_Section">
                         <input type="checkbox">
-                        <span class="custom_checkbox "></span>
+                        <span class="custom_checkbox"></span>
                         <span class="remember_text">Remember me</span>
-                    </label>
-                    <span class="forgot_section">
-                        <a href="#"> Forget password?</a>
-                    </span>
+                    </div>
+                    <div class="remember_forgot_section">
+                        <a href="#" class="forgot">Forgot password?</a>
+                    </div>
                 </div>
-                <button type="submit" class="btn">Sign In</button>
+                <button type="button" class="btn">Login</button>
             </form>
             <div class="register_navigation_section">
-                <h6 class="navigation_text">Don't have an account? <a href="#" class="register_navigation">Sign Up</a> </h6>
+                <h6 class="navigation_text">
+                    Don't have an account?
+                    <a href="#" class="register_navigation">Sign in</a>
+                </h6>
             </div>
         </div>
     </div>
