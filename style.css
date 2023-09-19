@@ -194,15 +194,17 @@ a{
     color: #474747;
     background-color: #f3f3f3;
     box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
-    transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
+    -webkit-box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
+    transition: all 5s ease-in-out;
+	-webkit-transition: all 5s ease-in-out;
     opacity: 1;
     cursor: pointer;
 }
 .btn:hover {
     box-shadow: inset 3px 3px 5px #cbced1, inset -3px -3px 5px #ffffff;
-    transition: all 0.5s ease-in-out;
-	-webkit-transition: all 0.5s ease-in-out;
+    -webkit-box-shadow: inset 3px 3px 5px #cbced1, inset -3px -3px 5px #ffffff;
+    transition: all 5s ease-in-out;
+	-webkit-transition: all 5s ease-in-out;
 }
 .register_navigation_section{
     width: 100%;
