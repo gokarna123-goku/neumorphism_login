@@ -22,16 +22,17 @@ a{
     align-items: center;
     justify-content: center;
     /* overflow: hidden; */
-    background: #dedede;
+    /* background: #dedede; */
+    background: #e9e9e9;
 }
 
 .login_card {
     width: 400px;
     min-height: 70vh;
     padding: 40px 35px;
-    border-radius: 15px;
+    border-radius: 10px;
     background-color: #f1f1f1;  /* efefef */
-    box-shadow: -8px -8px 15px #ffffff, 8px 8px 15px #161b1d2f;
+    box-shadow: -8px -8px 20px #ffffff, 8px 8px 15px #161b1d2f;
 }
 .login_card h5{
     font-size: 1.75rem;
@@ -59,7 +60,7 @@ a{
 }
 .input_section .input_box{
     width: 100%;
-    height: 45px;
+    height: 50px;
     display: flex;
     align-items: center;
     column-gap: 0.7rem;
