@@ -85,22 +85,137 @@ a{
 }
 
 .remember_forgot_section{
-    width: 100%;
-    height: auto;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 25px 0;
+    margin-top: 25px;
+}
+.remember_forgot_section .forgot_section{
+    display: inline-block;
+    margin-left: 62%;
+    font-size: 0.9rem;
 }
 .remember_forgot_section .forgot_section a{
     font-size: 0.88rem;
     color: #1c7dd7;
     line-height: 24px;
-    transition: .5s ease-out;
 }
 .remember_forgot_section .forgot_section a:hover{
     text-decoration: underline;
 }
+
+
+/* Custom Checkbox start here */
+.remember_forgot_section .checkbox_section{
+    display: block;
+    position: relative;
+    cursor: pointer;
+    font-size: 1.2rem;
+    line-height: 22px;
+}
+.remember_text{
+    color: #635f5f;
+    display: inline-block;
+    position: absolute;
+    font-weight: 500;
+    left: 11%;
+    font-size: 0.9rem;
+}
+
+.remember_forgot_section .checkbox_section input{
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+.checkbox_section .custom_checkbox{
+    position: absolute;
+    top: 0;
+    left: 0px;
+    height: 20px;
+    width: 20px;
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    border: 1px solid transparent;
+    box-shadow: inset 2px 2px 3px #cbced1, inset -2px -2px 3px #ffff;
+}
+.checkbox_section input:checked~.custom_checkbox{
+    background-color: #f3f3f3;
+    border-radius: 4px;
+    -webkit-transform: rotate(0deg) scale(1);
+    -ms-transform: rotate(0deg) scale(1);
+    transform: rotate(0deg) scale(1);
+    opacity: 1;
+    border: 1px solid #ededed;
+    box-shadow: -4px -4px 4px #feffff, 4px 4px 4px #161b1d2f;
+}
+.checkbox_section .custom_checkbox::after{
+    position: absolute;
+    content: "";
+    left: 10px;
+    top: 10px;
+    height: 0px;
+    width: 0px;
+    border-radius: 4px;
+    border: solid #635f5f;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(0deg) scale(0);
+    -ms-transform: rotate(0deg) scale(0);
+    transform: rotate(0deg) scale(0);
+    opacity: 1;
+    transition: all 0.3s ease-out;
+}
+.checkbox_section input:checked~.custom_checkbox::after{
+    -webkit-transform: rotate(45deg) scale(1);
+    -ms-transform: rotate(45deg) scale(1);
+    transform: rotate(45deg) scale(1);
+    opacity: 1;
+    left: 7px;
+    top: 3px;
+    width: 4px;
+    height: 8px;
+    border: solid #635f5f;
+    border-width: 0 2px 2px 0;
+    border-radius: 0;
+    background-color: transparent;
+}
+
+/* Custom Checkbox end here */
+
+.btn{
+    width: 100%;
+    height: 43px;
+    margin-top: 1.75rem;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    font-weight: 550;
+    color: #1c7dd7;
+    border: none;
+    border-radius: 20px;
+    background: #f3f3f3;
+    box-shadow: 5px 5px 6px #0d275023, -5px -5px 6px #ffffff;
+    cursor: pointer;
+}
+.btn:hover{
+    box-shadow: inset 3px 3px 5px #cbced1, -3px -3px 5px #ffffff;
+}
+
+.register_navigation_section{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 0.5rem;
+    text-align: center;
+}
+.register_navigation_section h6{
+    font-size: 0.99rem;
+    font-weight: 500;
+    color: #474747;
+}
+.register_navigation_section h6 a{
+    color: #1c7dd7;
+}
+
+
+
 
 
 
